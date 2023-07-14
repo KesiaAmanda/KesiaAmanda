@@ -2,21 +2,10 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-                @font-face {
-                    font-family: 'minecraftiaregular';
-                    src: url('./fonts/minecraftia-regular-webfont.woff2') format('woff2'),
-                        url('./fontsminecraftia-regular-webfont.woff') format('woff');
-                    font-weight: normal;
-                    font-style: normal;
-
-                }
-
-                * {
-                    font-family: "minecraftiaregular", sans-serif;
-                }
+                @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
                 h1 {
-                    font-family: "minecraftiaregular", sans-serif;
+                    font-family: 'VT323', monospace;
                     padding-top: 10px;
                 }
 
@@ -34,9 +23,17 @@
                         }
                     }
                 }
+
+                svg {
+                    position: absolute;
+                }
             </style>
 
             <div class="container">
+                <svg>
+                    <path fill="aqua"
+                        d="M23 20.168l-8.185-8.187 8.185-8.174-2.832-2.807-8.182 8.179-8.176-8.179-2.81 2.81 8.186 8.196-8.186 8.184 2.81 2.81 8.203-8.192 8.18 8.192z" />
+                </svg>
                 <h1>Hi there, my name is Kesia! </h1>
             </div>
         </div>
