@@ -115,7 +115,7 @@
                 --frame-shadow-white: rgba(102, 102, 102, 0.336);
                 --frame-shadow-black: rgba(0, 0, 0, 0.411);
                 --frame-border-style: solid;
-                --window-header-backgroud-color: rgba(0, 0, 0, 0.171);
+                --window-header-backgroud-color: rgba(0, 0, 0, 0.233);
             }
 
             @media (prefers-color-scheme: light) {
