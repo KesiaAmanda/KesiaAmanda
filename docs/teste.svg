@@ -2,93 +2,106 @@
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
+            <div class="body">
+                <div id="welcome" class="container">
+                    <div class="header">
+                        <span>Welcome <span class="emote">(/*￣︶￣)/</span></span>
+                        <div class="buttoms">
+                            <div class="buttom minimize">
+                                <p>🗕</p>
+                            </div>
+                            <div class="buttom maximize">
+                                <p>🗗</p>
+                            </div>
+                            <div class="buttom close">
+                                <p>🗙</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="text-content">
+                            <h1 id="str-hello">Hi there, my name is</h1>
+                            <h1 id="str-name">>Kesia Amanda!</h1>
+                        </div>
+                        <div class="image-content">
 
-            <div id="welcome" class="container">
-                <div class="header">
-                    <span>Welcome <span class="emote">(/*￣︶￣)/</span></span>
-                    <div class="buttoms">
-                        <div class="buttom minimize">
-                            <p>🗕</p>
-                        </div>
-                        <div class="buttom maximize">
-                            <p>🗗</p>
-                        </div>
-                        <div class="buttom close">
-                            <p>🗙</p>
                         </div>
                     </div>
                 </div>
-                <div class="content">
-                    <div class="text-content">
-                        <h1 id="str-hello">Hi there, my name is</h1>
-                        <h1 id="str-name">>Kesia Amanda!</h1>
-                    </div>
-                    <div class="image-content">
 
+                <div id="profession" class="container">
+                    <div class="header">
+                        <span>Profession <span class="emote">(/*￣︶￣)/</span></span>
+                        <div class="buttoms">
+                            <div class="buttom minimize">
+                                <p>🗕</p>
+                            </div>
+                            <div class="buttom maximize">
+                                <p>🗗</p>
+                            </div>
+                            <div class="buttom close">
+                                <p>🗙</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="text-content">
+                            <h1 id="str-profession">Backend Developer</h1>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="cat" class="container">
+                    <div class="header">
+                        <span><span class="emote">(/*￣︶￣)/</span></span>
+                        <div class="buttoms">
+                            <div class="buttom minimize">
+                                <p>🗕</p>
+                            </div>
+                            <div class="buttom maximize">
+                                <p>🗗</p>
+                            </div>
+                            <div class="buttom close">
+                                <p>🗙</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="text-content">
+                            <h1 id="str-cat">aaaaaaa</h1>
+                        </div>
+                        <div>
+
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div id="profession" class="container">
-                <div class="header">
-                    <span>Profession <span class="emote">(/*￣︶￣)/</span></span>
-                    <div class="buttoms">
-                        <div class="buttom minimize">
-                            <p>🗕</p>
-                        </div>
-                        <div class="buttom maximize">
-                            <p>🗗</p>
-                        </div>
-                        <div class="buttom close">
-                            <p>🗙</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="text-content">
-                        <h1 id="str-profession">Backend Developer</h1>
-                    </div>
-                    <div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div id="cat" class="container">
-                <div class="header">
-                    <span><span class="emote">(/*￣︶￣)/</span></span>
-                    <div class="buttoms">
-                        <div class="buttom minimize">
-                            <p>🗕</p>
-                        </div>
-                        <div class="buttom maximize">
-                            <p>🗗</p>
-                        </div>
-                        <div class="buttom close">
-                            <p>🗙</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="text-content">
-                        <text id="str-cat" x="50%" y="50%" text-anchor="middle">aaaaaaa</text>
-                    </div>
-                    <div>
-
-                    </div>
-                </div>
-            </div>
-
         </div>
 
-        <script type="text/javascript">
-            window.addEventListener('DOMContentLoaded', function() {
-            var catObj = document.getElementById("str-cat");
-            catObj.textContent = 'oie';
-        });
-        </script>
-
         <style>
+            .body {
+                --color-main: #141414;
+                --text-color: rgb(247, 242, 248);
+                --frame-shadow-white: rgba(102, 102, 102, 0.336);
+                --frame-shadow-black: rgba(0, 0, 0, 0.692);
+                --frame-border-style: solid;
+                --window-header-backgroud-color: rgba(150, 62, 128, 0.185);
+            }
+
+            @media (prefers-color-scheme: light) {
+                .body {
+                    --color-main: rgb(187, 180, 185);
+                    --text-color: rgb(12, 5, 11);
+                    --frame-shadow-white: rgb(235, 235, 235);
+                    --frame-shadow-black: rgb(175, 175, 175);
+                    --frame-border-style: ridge;
+                    --window-header-backgroud-color: rgb(150, 62, 128);
+                }
+            }
+
             * {
                 font-family: 'Minecraftia', monospace, sans-serif;
                 font-weight: normal;
@@ -96,12 +109,6 @@
             }
 
             .container {
-                --color-main: #141414;
-                --text-color: rgb(247, 242, 248);
-                --frame-shadow-white: rgba(102, 102, 102, 0.336);
-                --frame-shadow-black: rgba(0, 0, 0, 0.692);
-                --frame-border-style: solid;
-
                 background-color: var(--color-main);
                 color: var(--text-color);
                 width: 600px;
@@ -111,21 +118,9 @@
                 border-left: ridge 2px var(--frame-shadow-white);
                 border-bottom: var(--frame-border-style) 2px var(--frame-shadow-black);
                 border-right: var(--frame-border-style) 2px var(--frame-shadow-black);
-
-                color: @media (prefers-color-scheme: light) {
-                    .container {
-                        --color-main: rgb(187, 180, 185);
-                        --text-color: rgb(12, 5, 11);
-                        --frame-shadow-white: rgb(235, 235, 235);
-                        --frame-shadow-black: rgb(175, 175, 175);
-                        --frame-border-style: ridge;
-                    }
-                }
             }
 
             .header {
-                --window-header-backgroud-color: rgba(150, 62, 128, 0.185);
-
                 position: relative;
                 background-color: var(--window-header-backgroud-color);
                 display: flex;
@@ -133,12 +128,6 @@
                 justify-content: space-between;
                 align-items: center;
                 padding: 0px 2px 1px 10px;
-
-                color: @media (prefers-color-scheme: light) {
-                    .header {
-                        --window-header-backgroud-color: rgb(150, 62, 128);
-                    }
-                }
             }
 
             .header span {
@@ -155,11 +144,6 @@
             }
 
             .buttom {
-                --color-main: #141414;
-                --frame-shadow-white: rgba(102, 102, 102, 0.336);
-                --frame-shadow-black: rgba(0, 0, 0, 0.692);
-                --frame-border-style: solid;
-
                 background-color: var(--color-main);
                 border-top: ridge 2px var(--frame-shadow-white);
                 border-left: ridge 2px var(--frame-shadow-white);
@@ -168,15 +152,6 @@
                 width: 20px;
                 height: 20px;
                 text-align: center;
-
-                color: @media (prefers-color-scheme: light) {
-                    .buttom {
-                        --color-main: rgb(187, 180, 185);
-                        --frame-shadow-white: rgb(235, 235, 235);
-                        --frame-shadow-black: rgb(175, 175, 175);
-                        --frame-border-style: ridge;
-                    }
-                }
             }
 
             .buttom p {
@@ -184,10 +159,6 @@
             }
 
             .content {
-                --frame-shadow-white: rgba(102, 102, 102, 0.336);
-                --frame-shadow-black: rgba(0, 0, 0, 0.692);
-                --frame-border-style: solid;
-
                 border-top: ridge 2px var(--frame-shadow-black);
                 border-left: ridge 2px var(--frame-shadow-black);
                 border-bottom: var(--frame-border-style) 2px var(--frame-shadow-white);
@@ -201,14 +172,6 @@
 
                 position: relative;
                 margin: 1px;
-
-                color: @media (prefers-color-scheme: light) {
-                    .content {
-                        --frame-shadow-white: rgb(235, 235, 235);
-                        --frame-shadow-black: rgb(175, 175, 175);
-                        --frame-border-style: ridge;
-                    }
-                }
             }
 
             .text-content {
