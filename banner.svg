@@ -110,12 +110,12 @@
 
         <style>
             .body {
-                --color-main: #141414;
+                --color-main: #22272E;
                 --text-color: rgb(247, 242, 248);
                 --frame-shadow-white: rgba(102, 102, 102, 0.336);
-                --frame-shadow-black: rgba(0, 0, 0, 0.692);
+                --frame-shadow-black: rgba(0, 0, 0, 0.411);
                 --frame-border-style: solid;
-                --window-header-backgroud-color: rgba(0, 0, 0, 0.295);
+                --window-header-backgroud-color: rgba(0, 0, 0, 0.171);
             }
 
             @media (prefers-color-scheme: light) {
@@ -193,10 +193,10 @@
             }
 
             .content {
-                border-top: var(--frame-border-style) 2px var(--frame-shadow-black);
-                border-left: var(--frame-border-style) 2px var(--frame-shadow-black);
-                border-bottom: var(--frame-border-style) 2px var(--frame-shadow-white);
-                border-right: var(--frame-border-style) 2px var(--frame-shadow-white);
+                border-top: solid 2px var(--frame-shadow-black);
+                border-left: solid 2px var(--frame-shadow-black);
+                border-bottom: solid 2px var(--frame-shadow-white);
+                border-right: solid 2px var(--frame-shadow-white);
                 display: flex;
                 flex-wrap: nowrap;
                 justify-content: center;
