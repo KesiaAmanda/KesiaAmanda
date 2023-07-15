@@ -115,7 +115,7 @@
                 --frame-shadow-white: rgba(102, 102, 102, 0.336);
                 --frame-shadow-black: rgba(0, 0, 0, 0.692);
                 --frame-border-style: solid;
-                --window-header-backgroud-color: rgba(150, 62, 128, 0.384);
+                --window-header-backgroud-color: rgba(0, 0, 0, 0.295);
             }
 
             @media (prefers-color-scheme: light) {
@@ -178,8 +178,8 @@
 
             .buttom {
                 background-color: var(--color-main);
-                border-top: ridge 2px var(--frame-shadow-white);
-                border-left: ridge 2px var(--frame-shadow-white);
+                border-top: var(--frame-border-style) 2px var(--frame-shadow-white);
+                border-left: var(--frame-border-style) 2px var(--frame-shadow-white);
                 border-bottom: var(--frame-border-style) 2px var(--frame-shadow-black);
                 border-right: var(--frame-border-style) 2px var(--frame-shadow-black);
                 width: 20px;
