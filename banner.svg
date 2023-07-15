@@ -223,7 +223,7 @@
             #welcome {
                 max-width: 550px;
                 position: fixed;
-                left: 17%;
+                left: 16%;
             }
 
             #welcome h1 {
@@ -251,7 +251,7 @@
             #cat {
                 max-width: 175px;
                 position: fixed;
-                right: 0;
+                right: 1%;
                 bottom: 7%;
             }
 
@@ -269,8 +269,8 @@
             #tools {
                 max-width: 400px;
                 position: fixed;
-                left: 8%;
-                bottom: 0;
+                left: 9%;
+                bottom: 2%;
             }
 
             #tools .text-content {
