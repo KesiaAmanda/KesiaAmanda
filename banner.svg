@@ -178,8 +178,8 @@
 
             .buttom {
                 background-color: var(--color-main);
-                border-top: var(--frame-border-style) 2px var(--frame-shadow-white);
-                border-left: var(--frame-border-style) 2px var(--frame-shadow-white);
+                border-top: ridge 2px var(--frame-shadow-white);
+                border-left: ridge 2px var(--frame-shadow-white);
                 border-bottom: var(--frame-border-style) 2px var(--frame-shadow-black);
                 border-right: var(--frame-border-style) 2px var(--frame-shadow-black);
                 width: 20px;
@@ -193,8 +193,8 @@
             }
 
             .content {
-                border-top: ridge 2px var(--frame-shadow-black);
-                border-left: ridge 2px var(--frame-shadow-black);
+                border-top: var(--frame-border-style) 2px var(--frame-shadow-black);
+                border-left: var(--frame-border-style) 2px var(--frame-shadow-black);
                 border-bottom: var(--frame-border-style) 2px var(--frame-shadow-white);
                 border-right: var(--frame-border-style) 2px var(--frame-shadow-white);
                 display: flex;
