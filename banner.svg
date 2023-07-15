@@ -110,7 +110,7 @@
 
         <style>
             .body {
-                --color-main: #22272E;
+                --color-main: #1C2128;
                 --text-color: rgb(247, 242, 248);
                 --frame-shadow-white: rgba(102, 102, 102, 0.336);
                 --frame-shadow-black: rgba(0, 0, 0, 0.411);
