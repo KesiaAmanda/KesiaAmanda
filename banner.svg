@@ -46,7 +46,7 @@
                     </div>
                     <div class="content">
                         <div class="text-content">
-                            <h1 id="str-profession">Backend Developer</h1>
+                            <h1 id="str-profession">Software Developer</h1>
                         </div>
                         <div>
 
@@ -127,6 +127,7 @@
                     --frame-border-style: ridge;
                     --window-header-backgroud-color: rgba(150, 62, 128, 0.644);
                 }
+
             }
 
             * {
@@ -151,7 +152,7 @@
                 position: relative;
                 background-color: var(--window-header-backgroud-color);
                 display: flex;
-                max-height: 27px;
+                max-height: 20px;
                 margin: 2px;
                 justify-content: space-between;
                 align-items: center;
@@ -160,14 +161,14 @@
 
             .header span {
                 color: rgb(247, 242, 248);
-                padding-top: 6px;
-                font-size: 13px;
+                padding-top: 7px;
+                font-size: 11px;
             }
 
             .emote {
                 position: absolute;
                 font-family: monospace;
-                font-size: 10px !important;
+                font-size: 7px !important;
                 padding-top: 3px !important;
             }
 
@@ -182,14 +183,15 @@
                 border-left: ridge 2px var(--frame-shadow-white);
                 border-bottom: var(--frame-border-style) 2px var(--frame-shadow-black);
                 border-right: var(--frame-border-style) 2px var(--frame-shadow-black);
-                width: 20px;
-                height: 20px;
+                width: 13px;
+                height: 13px;
                 text-align: center;
+                margin-left: 1px;
             }
 
             .buttom p {
-                font-size: 17px;
-                margin: -16px;
+                font-size: 12px;
+                margin: -12px;
             }
 
             .content {
@@ -201,16 +203,10 @@
                 flex-wrap: nowrap;
                 justify-content: center;
                 align-items: center;
-
-                gap: 20px;
-
-                position: relative;
-                margin: 1px;
+                gap: 2px;
             }
 
             .text-content {
-                margin: 0px;
-                font-size: 10px;
                 line-height: 0;
             }
 
@@ -227,8 +223,7 @@
             #welcome {
                 max-width: 550px;
                 position: fixed;
-                left: 50%;
-                transform: translate(-50%);
+                left: 17%;
             }
 
             #welcome h1 {
@@ -249,8 +244,8 @@
             }
 
             #profession h1 {
-                padding: 15px 15px 5px 15px;
-                font-size: 15px;
+                padding: 11px 15px 5px 15px;
+                font-size: 12px;
             }
 
             #cat {
@@ -274,7 +269,7 @@
             #tools {
                 max-width: 400px;
                 position: fixed;
-                left: 12%;
+                left: 8%;
                 bottom: 0;
             }
 
